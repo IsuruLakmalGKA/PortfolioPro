@@ -17,12 +17,12 @@ import {
   springboot,
   mysql,
   graphql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
+  CarRentalApp,
+  MLModelSearch,
+  GameJavaScript,
+  ProPort,
+  MApp,
+  RansomeWare,
   coverhunt,
   dcc,
   kelhel,
@@ -156,15 +156,15 @@ const experiences = [
 const projects = [
   {
     id: 'project-1',
-    name: 'KomiKult',
-    description: 'A comic characters list app that displays Marvel characters.',
+    name: 'Car Rental App',
+    description: 'A web app to rent cars.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'springmvc',
         color: 'green-text-gradient',
       },
       {
@@ -172,22 +172,22 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
-    demo: 'https://shaqdeff.github.io/KomiKult/',
+    image: CarRentalApp,
+    repo: 'https://github.com/IsuruLakmalGKA/ITS_1114-Car-Rental-System-',
+    demo: 'https://github.com/IsuruLakmalGKA/ITS_1114-Car-Rental-System-',
   },
   {
     id: 'project-2',
-    name: 'Leaderboard',
+    name: 'Phamarcy Web App',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'A ML model for pharmacy search option.',
     tags: [
       {
-        name: 'react',
+        name: 'JavaScript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'mongodb',
         color: 'green-text-gradient',
       },
       {
@@ -195,17 +195,17 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
-    demo: 'https://shaqdeff.github.io/Leaderboard/',
+    image: MLModelSearch,
+    repo: 'https://github.com/IsuruLakmalGKA/Hackthon_project',
+    demo: 'https://github.com/IsuruLakmalGKA/Hackthon_project',
   },
   {
     id: 'project-3',
-    name: 'Math Magicians',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Samurai Game',
+    description: 'Intense samurai fighting game featuring epic duels, skillful swordplay, and stunning Japanese landscapes',
     tags: [
       {
-        name: 'nextjs',
+        name: 'JavaScript',
         color: 'blue-text-gradient',
       },
       {
@@ -217,17 +217,17 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
-    demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
+    image: GameJavaScript,
+    repo: 'https://github.com/IsuruLakmalGKA/Game_Assignment',
+    demo: 'https://isurulakmalgka.github.io/Game_Assignment/',
   },
   {
     id: 'project-4',
-    name: 'Movie Metro',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: 'My PortFolio',
+    description: `Professional portfolio showcasing my skills, projects, and experiences in web development, design, and digital innovation. Let's create together!`,
     tags: [
       {
-        name: 'nextjs',
+        name: 'ReactJs',
         color: 'blue-text-gradient',
       },
       {
@@ -235,19 +235,40 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'Tailwind css',
         color: 'pink-text-gradient',
       },
     ],
-    image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
-    demo: 'https://movie-metro.netlify.app/',
+    image: ProPort,
+    repo: 'https://github.com/IsuruLakmalGKA/portfoliopro',
+    demo: 'https://isurulakmalgka.github.io/portfoliopro/',
   },
+  // {
+  //   id: 'project-5',
+  //   name: 'Mobile Music App Android',
+  //   description:'Discover new music, create custom playlists, and stream your favorite songs with our intuitive mobile app. Enjoy high-quality audio and personalized recommendations anytime, anywhere. Your soundtrack to life.',
+  //   tags: [
+  //     {
+  //       name: 'nextjs',
+  //       color: 'blue-text-gradient',
+  //     },
+  //     {
+  //       name: 'supabase',
+  //       color: 'green-text-gradient',
+  //     },
+  //     {
+  //       name: 'css',
+  //       color: 'pink-text-gradient',
+  //     },
+  //   ],
+  //   image: MApp,
+  //   repo: 'https://github.com/IsuruLakmalGKA/Android_MusicPlayer-v1.0',
+  //   demo: 'https://github.com/IsuruLakmalGKA/Android_MusicPlayer-v1.0',
+  // },
   {
     id: 'project-5',
-    name: 'Nyeusi Fest Site',
-    description:
-      'This is a demo concert website for a music festival called Nyeusi.',
+    name: 'Ransomeware',
+    description:'Ransomware encrypts and can delete all files on a computer, demanding payment for decryption. It poses a severe threat to data security and requires urgent protective measures.',
     tags: [
       {
         name: 'nextjs',
@@ -262,9 +283,9 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
-    demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
+    image:RansomeWare,
+    repo: 'https://github.com/IsuruLakmalGKA/Android_MusicPlayer-v1.0',
+    demo: 'https://github.com/IsuruLakmalGKA/Android_MusicPlayer-v1.0',
   },
 ];
 

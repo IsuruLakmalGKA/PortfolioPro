@@ -20,9 +20,8 @@ const ProjectCard = ({
   return (
     <motion.div
       variants={fadeIn('right', 'spring', index * 0.5, 0.75)}
-      className={`relative ${
-        active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
-      } flex items-center justify-center min-w-[170px] 
+      className={`relative ${active === id ? 'lg:flex-[3.5] flex-[10]' : 'lg:flex-[0.5] flex-[2]'
+        } flex items-center justify-center min-w-[170px] 
       h-[420px] cursor-pointer card-shadow`}
       onClick={() => handleClick(id)}>
       <div
@@ -75,7 +74,7 @@ const ProjectCard = ({
               font-poppins tracking-[1px]">
               {description}
             </p>
-            <button
+            {/* <button
               className="live-demo flex justify-between 
               sm:text-[16px] text-[14px] text-timberWolf 
               font-bold font-beckman items-center py-5 pl-2 pr-3 
@@ -102,7 +101,7 @@ const ProjectCard = ({
                   w-[30px] h-[30px] object-contain"
               />
               LIVE DEMO
-            </button>
+            </button> */}
           </div>
         </>
       )}
@@ -116,7 +115,6 @@ const Projects = () => {
   return (
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>Case Studies</p>
         <h2 className={`${styles.sectionHeadTextLight}`}>Projects.</h2>
       </motion.div>
 
@@ -149,7 +147,30 @@ const Projects = () => {
             />
           ))}
         </div>
+
       </motion.div>
+      {/* <motion.div
+        variants={staggerContainer}
+        initial="hidden"
+        whileInView="show"
+        viewport={{ once: false, amount: 0.25 }}
+        className={`${styles.innerWidth} mx-auto flex flex-col`}
+      >
+        <div className="w-full flex justify-center">
+          <button
+            type="submit"
+            className="live-demo flex justify-center sm:gap-4 
+            gap-3 sm:text-[20px] text-[16px] text-timberWolf 
+            font-bold font-beckman items-center py-5
+            whitespace-nowrap sm:w-[130px] sm:h-[50px] 
+            w-[100px] h-[45px] rounded-[10px] bg-night 
+            hover:bg-battleGray hover:text-eerieBlack 
+            transition duration-[0.2s] ease-in-out"
+          >More
+          </button>
+        </div>
+      </motion.div> */}
+
     </div>
   );
 };
